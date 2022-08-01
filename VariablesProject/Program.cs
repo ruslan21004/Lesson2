@@ -1,11 +1,19 @@
-﻿// double number = null; 
+﻿Console.WriteLine("Hello world");
 
-// string str = null;
+Console.WriteLine("Hello world");
 
-// int? nullInt = null;
+Console.WriteLine("Hello world");
+Console.WriteLine("Hello world");
+Console.WriteLine("Hello world");
 
-int variable;
-variable = 5;
 
-Console.WriteLine(variable);
+Console.WriteLine("Hello world");
+
+Console.WriteLine("Hello world");
+
+Console.WriteLine("Hello world");
+Console.WriteLine("Hello world");
+Console.WriteLine("Hello world");
+
+Console.WriteLine("Hello world");
 
