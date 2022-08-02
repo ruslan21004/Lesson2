@@ -39,3 +39,13 @@ int num4 = -6;
 double xxx3 = Math.Max(num3, num4);
 Console.WriteLine(xxx3);
 
+
+var currentDate = DateTime.Now;
+var newYearDate = new DateTime(currentDate.Year + 1, 1, 1);
+var toNewYear = newYearDate - currentDate;
+Console.WriteLine($"До нового года осталось {toNewYear.Days} дней");
+
+
+DateTime finishYear = new DateTime(2023, 1, 1);
+TimeSpan dateLeft = finishYear - DateTime.Now;
+Console.WriteLine($"{dateLeft.Days} дней прошло с Нового Года");
