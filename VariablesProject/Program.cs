@@ -49,3 +49,4 @@ Console.WriteLine($"До нового года осталось {toNewYear.Days}
 DateTime finishYear = new DateTime(2023, 1, 1);
 TimeSpan dateLeft = finishYear - DateTime.Now;
 Console.WriteLine($"{dateLeft.Days} дней прошло с Нового Года");
+//checked
